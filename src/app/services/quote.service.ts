@@ -13,4 +13,7 @@ export class QuoteService {
   getAuthorAll(){
     return this.http.get<RegistroAuthor>('http://localhost:3000/authores')
   }
+  createAuthor(data:any){
+    return this.http.post('http://localhost:3000/quotes',data)
+  }
 }

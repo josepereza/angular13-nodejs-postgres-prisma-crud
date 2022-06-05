@@ -1,0 +1,12 @@
+<p>altas works!</p>
+<form [formGroup]="authorForm" (ngSubmit)="agregar()">
+    <div class="mb-3">
+    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+    <input type="text" class="form-control" formControlName="author" placeholder="name">
+  </div>
+  <div class="mb-3">
+    <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+    <textarea formControlName="quote" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+  <button type="submit" >Submit</button>
+</form>
