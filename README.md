@@ -542,11 +542,13 @@ Just keep in mind that an ORM is a great tool to reach for when your project is 
 
 As mentioned earlier, using an ORM often involves a trade-off — a balance between convenience and control. Be very careful with what you are leaving behind and make sure what you gain is worth it.
 ## postgres -comandos
+```
 \l - Display database
 \c - Connect to database
 \dn - List schemas
 \dt - List tables inside public schemas
 \dt schema1.* - List tables inside particular schemas. For eg: 'schema1'.
+```
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
