@@ -1,0 +1,12 @@
+.author {
+    padding: 10px;
+    background-color: blanchedalmond;
+    margin-bottom: 5px;
+}
+.quote {
+    padding: 5px;
+    background-color: aquamarine;
+}
+.card-text {
+    font-size: 1.2em;
+}
